@@ -5,8 +5,7 @@
 
 import SwiftUI
 
-@main
-struct FinalYearProjectApp: App {
+@main struct FinalYearProjectApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

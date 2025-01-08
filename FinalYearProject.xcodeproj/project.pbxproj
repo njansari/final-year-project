@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BD6639382D2EDA34007BAEB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6639352D2EDA34007BAEB2 /* ContentView.swift */; };
+		BD6639392D2EDA34007BAEB2 /* FinalYearProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6639362D2EDA34007BAEB2 /* FinalYearProjectApp.swift */; };
+		BD66393A2D2EDA34007BAEB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6639322D2EDA34007BAEB2 /* Preview Assets.xcassets */; };
+		BD66393B2D2EDA34007BAEB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6639342D2EDA34007BAEB2 /* Assets.xcassets */; };
+		BD66393E2D2EDA37007BAEB2 /* FinalYearProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD66393C2D2EDA37007BAEB2 /* FinalYearProjectTests.swift */; };
+		BD6639422D2EDA3A007BAEB2 /* FinalYearProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD66393F2D2EDA3A007BAEB2 /* FinalYearProjectUITests.swift */; };
+		BD6639432D2EDA3A007BAEB2 /* FinalYearProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6639402D2EDA3A007BAEB2 /* FinalYearProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BD6639162D2EDA2B007BAEB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +37,14 @@
 		BD6639052D2EDA2A007BAEB2 /* FinalYearProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalYearProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6639152D2EDA2B007BAEB2 /* FinalYearProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalYearProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD66391F2D2EDA2B007BAEB2 /* FinalYearProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalYearProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6639322D2EDA34007BAEB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD6639342D2EDA34007BAEB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD6639352D2EDA34007BAEB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD6639362D2EDA34007BAEB2 /* FinalYearProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalYearProjectApp.swift; sourceTree = "<group>"; };
+		BD66393C2D2EDA37007BAEB2 /* FinalYearProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalYearProjectTests.swift; sourceTree = "<group>"; };
+		BD66393F2D2EDA3A007BAEB2 /* FinalYearProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalYearProjectUITests.swift; sourceTree = "<group>"; };
+		BD6639402D2EDA3A007BAEB2 /* FinalYearProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalYearProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BD6639072D2EDA2A007BAEB2 /* FinalYearProject */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FinalYearProject;
-			sourceTree = "<group>";
-		};
-		BD6639182D2EDA2B007BAEB2 /* FinalYearProjectTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FinalYearProjectTests;
-			sourceTree = "<group>";
-		};
-		BD6639222D2EDA2B007BAEB2 /* FinalYearProjectUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FinalYearProjectUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BD6639022D2EDA2A007BAEB2 /* Frameworks */ = {
@@ -75,9 +74,9 @@
 		BD6638FC2D2EDA2A007BAEB2 = {
 			isa = PBXGroup;
 			children = (
-				BD6639072D2EDA2A007BAEB2 /* FinalYearProject */,
-				BD6639182D2EDA2B007BAEB2 /* FinalYearProjectTests */,
-				BD6639222D2EDA2B007BAEB2 /* FinalYearProjectUITests */,
+				BD6639372D2EDA34007BAEB2 /* FinalYearProject */,
+				BD66393D2D2EDA37007BAEB2 /* FinalYearProjectTests */,
+				BD6639412D2EDA3A007BAEB2 /* FinalYearProjectUITests */,
 				BD6639062D2EDA2A007BAEB2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +89,42 @@
 				BD66391F2D2EDA2B007BAEB2 /* FinalYearProjectUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BD6639332D2EDA34007BAEB2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD6639322D2EDA34007BAEB2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD6639372D2EDA34007BAEB2 /* FinalYearProject */ = {
+			isa = PBXGroup;
+			children = (
+				BD6639362D2EDA34007BAEB2 /* FinalYearProjectApp.swift */,
+				BD6639352D2EDA34007BAEB2 /* ContentView.swift */,
+				BD6639342D2EDA34007BAEB2 /* Assets.xcassets */,
+				BD6639332D2EDA34007BAEB2 /* Preview Content */,
+			);
+			path = FinalYearProject;
+			sourceTree = "<group>";
+		};
+		BD66393D2D2EDA37007BAEB2 /* FinalYearProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD66393C2D2EDA37007BAEB2 /* FinalYearProjectTests.swift */,
+			);
+			path = FinalYearProjectTests;
+			sourceTree = "<group>";
+		};
+		BD6639412D2EDA3A007BAEB2 /* FinalYearProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD66393F2D2EDA3A007BAEB2 /* FinalYearProjectUITests.swift */,
+				BD6639402D2EDA3A007BAEB2 /* FinalYearProjectUITestsLaunchTests.swift */,
+			);
+			path = FinalYearProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +141,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BD6639072D2EDA2A007BAEB2 /* FinalYearProject */,
 			);
 			name = FinalYearProject;
 			packageProductDependencies = (
@@ -130,9 +162,6 @@
 			dependencies = (
 				BD6639172D2EDA2B007BAEB2 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				BD6639182D2EDA2B007BAEB2 /* FinalYearProjectTests */,
-			);
 			name = FinalYearProjectTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +181,6 @@
 			);
 			dependencies = (
 				BD6639212D2EDA2B007BAEB2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BD6639222D2EDA2B007BAEB2 /* FinalYearProjectUITests */,
 			);
 			name = FinalYearProjectUITests;
 			packageProductDependencies = (
@@ -212,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD66393A2D2EDA34007BAEB2 /* Preview Assets.xcassets in Resources */,
+				BD66393B2D2EDA34007BAEB2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6639382D2EDA34007BAEB2 /* ContentView.swift in Sources */,
+				BD6639392D2EDA34007BAEB2 /* FinalYearProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD66393E2D2EDA37007BAEB2 /* FinalYearProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6639422D2EDA3A007BAEB2 /* FinalYearProjectUITests.swift in Sources */,
+				BD6639432D2EDA3A007BAEB2 /* FinalYearProjectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,11 +432,13 @@
 				DEVELOPMENT_TEAM = CZK97YC4GP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = myLboro;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,6 +446,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.njansari.FinalYearProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,11 +467,13 @@
 				DEVELOPMENT_TEAM = CZK97YC4GP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = myLboro;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +481,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.njansari.FinalYearProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,6 +503,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.njansari.FinalYearProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,6 +526,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.njansari.FinalYearProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -494,6 +547,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.njansari.FinalYearProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -511,6 +568,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.njansari.FinalYearProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
