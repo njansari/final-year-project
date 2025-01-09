@@ -20,6 +20,9 @@
 		BD77F72B2D2EE7160016919C /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77F72A2D2EE7160016919C /* AlertsView.swift */; };
 		BD77F72D2D2EE7240016919C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77F72C2D2EE7240016919C /* SearchView.swift */; };
 		BD77F72F2D2EE72E0016919C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77F72E2D2EE72E0016919C /* SettingsView.swift */; };
+		BD77F7312D2F4D630016919C /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77F7302D2F4D630016919C /* SettingsItem.swift */; };
+		BD77F7332D2F4EDC0016919C /* SettingsLinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77F7322D2F4EDC0016919C /* SettingsLinkLabel.swift */; };
+		BD77F73E2D302DD40016919C /* NoSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77F73D2D302DD40016919C /* NoSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,10 @@
 		BD77F72A2D2EE7160016919C /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
 		BD77F72C2D2EE7240016919C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		BD77F72E2D2EE72E0016919C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BD77F7302D2F4D630016919C /* SettingsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
+		BD77F7322D2F4EDC0016919C /* SettingsLinkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLinkLabel.swift; sourceTree = "<group>"; };
+		BD77F7342D301FF60016919C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD77F73D2D302DD40016919C /* NoSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,15 +121,17 @@
 		BD6639372D2EDA34007BAEB2 /* FinalYearProject */ = {
 			isa = PBXGroup;
 			children = (
+				BD77F73D2D302DD40016919C /* NoSelectionView.swift */,
 				BD6639362D2EDA34007BAEB2 /* FinalYearProjectApp.swift */,
 				BD6639352D2EDA34007BAEB2 /* ContentView.swift */,
-				BD77F7262D2EE6E90016919C /* HomeView.swift */,
-				BD77F7282D2EE7030016919C /* ResourcesView.swift */,
-				BD77F72A2D2EE7160016919C /* AlertsView.swift */,
-				BD77F72C2D2EE7240016919C /* SearchView.swift */,
-				BD77F72E2D2EE72E0016919C /* SettingsView.swift */,
+				BD77F73A2D3026540016919C /* Home */,
+				BD77F7382D30264A0016919C /* Resources */,
+				BD77F7352D3026360016919C /* Alerts */,
+				BD77F7362D30263B0016919C /* Search */,
+				BD77F7372D3026400016919C /* Settings */,
 				BD77F7242D2EE47D0016919C /* TabItem.swift */,
 				BD6639342D2EDA34007BAEB2 /* Assets.xcassets */,
+				BD77F7342D301FF60016919C /* Info.plist */,
 				BD6639332D2EDA34007BAEB2 /* Preview Content */,
 			);
 			path = FinalYearProject;
@@ -143,6 +152,48 @@
 				BD6639402D2EDA3A007BAEB2 /* FinalYearProjectUITestsLaunchTests.swift */,
 			);
 			path = FinalYearProjectUITests;
+			sourceTree = "<group>";
+		};
+		BD77F7352D3026360016919C /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				BD77F72A2D2EE7160016919C /* AlertsView.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		BD77F7362D30263B0016919C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BD77F72C2D2EE7240016919C /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BD77F7372D3026400016919C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BD77F72E2D2EE72E0016919C /* SettingsView.swift */,
+				BD77F7322D2F4EDC0016919C /* SettingsLinkLabel.swift */,
+				BD77F7302D2F4D630016919C /* SettingsItem.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		BD77F7382D30264A0016919C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD77F7282D2EE7030016919C /* ResourcesView.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BD77F73A2D3026540016919C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BD77F7262D2EE6E90016919C /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,13 +334,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD77F7252D2EE47D0016919C /* TabItem.swift in Sources */,
+				BD77F73E2D302DD40016919C /* NoSelectionView.swift in Sources */,
 				BD77F72F2D2EE72E0016919C /* SettingsView.swift in Sources */,
 				BD77F7272D2EE6E90016919C /* HomeView.swift in Sources */,
+				BD77F7332D2F4EDC0016919C /* SettingsLinkLabel.swift in Sources */,
 				BD6639382D2EDA34007BAEB2 /* ContentView.swift in Sources */,
 				BD77F72D2D2EE7240016919C /* SearchView.swift in Sources */,
 				BD6639392D2EDA34007BAEB2 /* FinalYearProjectApp.swift in Sources */,
 				BD77F7292D2EE7030016919C /* ResourcesView.swift in Sources */,
 				BD77F72B2D2EE7160016919C /* AlertsView.swift in Sources */,
+				BD77F7312D2F4D630016919C /* SettingsItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +510,7 @@
 				DEVELOPMENT_TEAM = CZK97YC4GP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinalYearProject/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = myLboro;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -491,6 +546,7 @@
 				DEVELOPMENT_TEAM = CZK97YC4GP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinalYearProject/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = myLboro;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
