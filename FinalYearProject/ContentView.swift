@@ -6,6 +6,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage(.accent) private var accent
+    @AppStorage(.appearance) private var appearance
+
     @SceneStorage("ContentView.selectedTab") private var selectedTab: TabItem = .home
 
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
@@ -37,8 +40,9 @@ struct ContentView: View {
                     .environment(\.horizontalSizeClass, horizontalSizeClass)
             }
         }
+        .tint(accent.color)
+        .preferredColorScheme(.init(appearance.interfaceStyle))
         .environment(\.horizontalSizeClass, .compact)
-        .tint(.lboroPink)
     }
 }
 

@@ -1,0 +1,15 @@
+{
+  "originHash" : "6dd69e3420cb88531dcd9db2aaf878a4f808d5c3744ac5d8c38dd09a365098d4",
+  "pins" : [
+    {
+      "identity" : "navigation-accessories",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/njansari/navigation-accessories",
+      "state" : {
+        "revision" : "3b5d7ea148dd0586c0add7d549af90f0c68bc70a",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

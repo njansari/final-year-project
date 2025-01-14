@@ -6,7 +6,9 @@
 import SwiftUI
 
 struct SettingsLinkLabel<Icon: View>: View {
+    @Environment(\.self) private var environment
     @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.isFocused) private var isFocused
 
     let title: String
     let icon: Icon
@@ -61,6 +63,7 @@ struct SettingsLinkLabel<Icon: View>: View {
     var body: some View {
         Label {
             Text(title)
+                .foregroundStyle(isFocused ? Color.accentColor.associatedForeground(in: environment) : .primary)
         } icon: {
             ZStack {
                 Rectangle()

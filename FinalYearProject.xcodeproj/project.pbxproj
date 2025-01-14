@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD12A6D22D356E6A0045B9F0 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6D12D356E6A0045B9F0 /* Settings.swift */; };
+		BD12A6D42D3582860045B9F0 /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6D32D3582860045B9F0 /* GeneralSettingsView.swift */; };
+		BD12A6D62D3582BC0045B9F0 /* TimetableSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6D52D3582BC0045B9F0 /* TimetableSettingsView.swift */; };
+		BD12A6D82D3582C00045B9F0 /* NotificationsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6D72D3582C00045B9F0 /* NotificationsSettingsView.swift */; };
+		BD12A6DA2D3582C10045B9F0 /* QuickActionsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6D92D3582C10045B9F0 /* QuickActionsSettingsView.swift */; };
+		BD12A6DC2D3582C20045B9F0 /* WidgetsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6DB2D3582C20045B9F0 /* WidgetsSettingsView.swift */; };
+		BD12A6DE2D3582C30045B9F0 /* AppleWatchSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6DD2D3582C30045B9F0 /* AppleWatchSettingsView.swift */; };
+		BD12A6E02D3582C40045B9F0 /* DisplaySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6DF2D3582C40045B9F0 /* DisplaySettingsView.swift */; };
+		BD12A6E22D35834E0045B9F0 /* AppIconSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6E12D35834E0045B9F0 /* AppIconSettingsView.swift */; };
+		BD12A6E42D35834F0045B9F0 /* AboutSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6E32D35834F0045B9F0 /* AboutSettingsView.swift */; };
+		BD12A6E62D3583510045B9F0 /* UpdatesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6E52D3583510045B9F0 /* UpdatesSettingsView.swift */; };
+		BD12A6E82D3583530045B9F0 /* LabsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6E72D3583530045B9F0 /* LabsSettingsView.swift */; };
+		BD12A6EA2D358B240045B9F0 /* Accent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6E92D358B240045B9F0 /* Accent.swift */; };
+		BD12A6EC2D358B390045B9F0 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12A6EB2D358B390045B9F0 /* Appearance.swift */; };
+		BD1D26222D345F31004F09CB /* EnvironmentObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D26212D345F31004F09CB /* EnvironmentObservable.swift */; };
+		BD3263642D31ED6500E7445B /* TitleStyleAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3263632D31ED6500E7445B /* TitleStyleAccessory.swift */; };
+		BD3263662D31EDF400E7445B /* HeaderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3263652D31EDF400E7445B /* HeaderStyle.swift */; };
 		BD6639382D2EDA34007BAEB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6639352D2EDA34007BAEB2 /* ContentView.swift */; };
 		BD6639392D2EDA34007BAEB2 /* FinalYearProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6639362D2EDA34007BAEB2 /* FinalYearProjectApp.swift */; };
 		BD66393A2D2EDA34007BAEB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6639322D2EDA34007BAEB2 /* Preview Assets.xcassets */; };
@@ -23,6 +40,9 @@
 		BD77F7312D2F4D630016919C /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77F7302D2F4D630016919C /* SettingsItem.swift */; };
 		BD77F7332D2F4EDC0016919C /* SettingsLinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77F7322D2F4EDC0016919C /* SettingsLinkLabel.swift */; };
 		BD77F73E2D302DD40016919C /* NoSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77F73D2D302DD40016919C /* NoSelectionView.swift */; };
+		BD77F7402D302F000016919C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77F73F2D302F000016919C /* Extensions.swift */; };
+		BD8621072D32D77200AFEC3B /* NavigationAccessories in Frameworks */ = {isa = PBXBuildFile; productRef = BD8621062D32D77200AFEC3B /* NavigationAccessories */; };
+		BD8621092D32D78E00AFEC3B /* BackButtonAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8621082D32D78E00AFEC3B /* BackButtonAccessory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +63,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD12A6D12D356E6A0045B9F0 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		BD12A6D32D3582860045B9F0 /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
+		BD12A6D52D3582BC0045B9F0 /* TimetableSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableSettingsView.swift; sourceTree = "<group>"; };
+		BD12A6D72D3582C00045B9F0 /* NotificationsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsSettingsView.swift; sourceTree = "<group>"; };
+		BD12A6D92D3582C10045B9F0 /* QuickActionsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsSettingsView.swift; sourceTree = "<group>"; };
+		BD12A6DB2D3582C20045B9F0 /* WidgetsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsSettingsView.swift; sourceTree = "<group>"; };
+		BD12A6DD2D3582C30045B9F0 /* AppleWatchSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchSettingsView.swift; sourceTree = "<group>"; };
+		BD12A6DF2D3582C40045B9F0 /* DisplaySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySettingsView.swift; sourceTree = "<group>"; };
+		BD12A6E12D35834E0045B9F0 /* AppIconSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconSettingsView.swift; sourceTree = "<group>"; };
+		BD12A6E32D35834F0045B9F0 /* AboutSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSettingsView.swift; sourceTree = "<group>"; };
+		BD12A6E52D3583510045B9F0 /* UpdatesSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesSettingsView.swift; sourceTree = "<group>"; };
+		BD12A6E72D3583530045B9F0 /* LabsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabsSettingsView.swift; sourceTree = "<group>"; };
+		BD12A6E92D358B240045B9F0 /* Accent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accent.swift; sourceTree = "<group>"; };
+		BD12A6EB2D358B390045B9F0 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		BD1D26212D345F31004F09CB /* EnvironmentObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservable.swift; sourceTree = "<group>"; };
+		BD3263632D31ED6500E7445B /* TitleStyleAccessory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleStyleAccessory.swift; sourceTree = "<group>"; };
+		BD3263652D31EDF400E7445B /* HeaderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderStyle.swift; sourceTree = "<group>"; };
 		BD6639052D2EDA2A007BAEB2 /* FinalYearProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalYearProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6639152D2EDA2B007BAEB2 /* FinalYearProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalYearProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD66391F2D2EDA2B007BAEB2 /* FinalYearProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalYearProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +100,8 @@
 		BD77F7322D2F4EDC0016919C /* SettingsLinkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLinkLabel.swift; sourceTree = "<group>"; };
 		BD77F7342D301FF60016919C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD77F73D2D302DD40016919C /* NoSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSelectionView.swift; sourceTree = "<group>"; };
+		BD77F73F2D302F000016919C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BD8621082D32D78E00AFEC3B /* BackButtonAccessory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonAccessory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8621072D32D77200AFEC3B /* NavigationAccessories in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +130,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD1D261E2D345E0F004F09CB /* CustomNavigationAccessories */ = {
+			isa = PBXGroup;
+			children = (
+				BD3263632D31ED6500E7445B /* TitleStyleAccessory.swift */,
+				BD8621082D32D78E00AFEC3B /* BackButtonAccessory.swift */,
+			);
+			path = CustomNavigationAccessories;
+			sourceTree = "<group>";
+		};
 		BD6638FC2D2EDA2A007BAEB2 = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +170,6 @@
 		BD6639372D2EDA34007BAEB2 /* FinalYearProject */ = {
 			isa = PBXGroup;
 			children = (
-				BD77F73D2D302DD40016919C /* NoSelectionView.swift */,
 				BD6639362D2EDA34007BAEB2 /* FinalYearProjectApp.swift */,
 				BD6639352D2EDA34007BAEB2 /* ContentView.swift */,
 				BD77F73A2D3026540016919C /* Home */,
@@ -130,6 +178,14 @@
 				BD77F7362D30263B0016919C /* Search */,
 				BD77F7372D3026400016919C /* Settings */,
 				BD77F7242D2EE47D0016919C /* TabItem.swift */,
+				BD77F73D2D302DD40016919C /* NoSelectionView.swift */,
+				BD77F73F2D302F000016919C /* Extensions.swift */,
+				BD3263652D31EDF400E7445B /* HeaderStyle.swift */,
+				BD12A6E92D358B240045B9F0 /* Accent.swift */,
+				BD12A6EB2D358B390045B9F0 /* Appearance.swift */,
+				BD12A6D12D356E6A0045B9F0 /* Settings.swift */,
+				BD1D26212D345F31004F09CB /* EnvironmentObservable.swift */,
+				BD1D261E2D345E0F004F09CB /* CustomNavigationAccessories */,
 				BD6639342D2EDA34007BAEB2 /* Assets.xcassets */,
 				BD77F7342D301FF60016919C /* Info.plist */,
 				BD6639332D2EDA34007BAEB2 /* Preview Content */,
@@ -176,6 +232,17 @@
 				BD77F72E2D2EE72E0016919C /* SettingsView.swift */,
 				BD77F7322D2F4EDC0016919C /* SettingsLinkLabel.swift */,
 				BD77F7302D2F4D630016919C /* SettingsItem.swift */,
+				BD12A6D32D3582860045B9F0 /* GeneralSettingsView.swift */,
+				BD12A6D52D3582BC0045B9F0 /* TimetableSettingsView.swift */,
+				BD12A6D72D3582C00045B9F0 /* NotificationsSettingsView.swift */,
+				BD12A6D92D3582C10045B9F0 /* QuickActionsSettingsView.swift */,
+				BD12A6DB2D3582C20045B9F0 /* WidgetsSettingsView.swift */,
+				BD12A6DD2D3582C30045B9F0 /* AppleWatchSettingsView.swift */,
+				BD12A6DF2D3582C40045B9F0 /* DisplaySettingsView.swift */,
+				BD12A6E12D35834E0045B9F0 /* AppIconSettingsView.swift */,
+				BD12A6E32D35834F0045B9F0 /* AboutSettingsView.swift */,
+				BD12A6E52D3583510045B9F0 /* UpdatesSettingsView.swift */,
+				BD12A6E72D3583530045B9F0 /* LabsSettingsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -213,6 +280,7 @@
 			);
 			name = FinalYearProject;
 			packageProductDependencies = (
+				BD8621062D32D77200AFEC3B /* NavigationAccessories */,
 			);
 			productName = FinalYearProject;
 			productReference = BD6639052D2EDA2A007BAEB2 /* FinalYearProject.app */;
@@ -290,6 +358,9 @@
 			);
 			mainGroup = BD6638FC2D2EDA2A007BAEB2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BD8621052D32D77200AFEC3B /* XCRemoteSwiftPackageReference "navigation-accessories" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BD6639062D2EDA2A007BAEB2 /* Products */;
 			projectDirPath = "";
@@ -333,17 +404,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3263662D31EDF400E7445B /* HeaderStyle.swift in Sources */,
+				BD12A6DA2D3582C10045B9F0 /* QuickActionsSettingsView.swift in Sources */,
 				BD77F7252D2EE47D0016919C /* TabItem.swift in Sources */,
+				BD12A6D42D3582860045B9F0 /* GeneralSettingsView.swift in Sources */,
 				BD77F73E2D302DD40016919C /* NoSelectionView.swift in Sources */,
+				BD12A6D62D3582BC0045B9F0 /* TimetableSettingsView.swift in Sources */,
 				BD77F72F2D2EE72E0016919C /* SettingsView.swift in Sources */,
+				BD12A6DC2D3582C20045B9F0 /* WidgetsSettingsView.swift in Sources */,
 				BD77F7272D2EE6E90016919C /* HomeView.swift in Sources */,
+				BD12A6D82D3582C00045B9F0 /* NotificationsSettingsView.swift in Sources */,
+				BD1D26222D345F31004F09CB /* EnvironmentObservable.swift in Sources */,
+				BD12A6EA2D358B240045B9F0 /* Accent.swift in Sources */,
+				BD12A6D22D356E6A0045B9F0 /* Settings.swift in Sources */,
 				BD77F7332D2F4EDC0016919C /* SettingsLinkLabel.swift in Sources */,
+				BD8621092D32D78E00AFEC3B /* BackButtonAccessory.swift in Sources */,
 				BD6639382D2EDA34007BAEB2 /* ContentView.swift in Sources */,
+				BD12A6E02D3582C40045B9F0 /* DisplaySettingsView.swift in Sources */,
 				BD77F72D2D2EE7240016919C /* SearchView.swift in Sources */,
+				BD77F7402D302F000016919C /* Extensions.swift in Sources */,
 				BD6639392D2EDA34007BAEB2 /* FinalYearProjectApp.swift in Sources */,
 				BD77F7292D2EE7030016919C /* ResourcesView.swift in Sources */,
+				BD12A6E22D35834E0045B9F0 /* AppIconSettingsView.swift in Sources */,
+				BD3263642D31ED6500E7445B /* TitleStyleAccessory.swift in Sources */,
 				BD77F72B2D2EE7160016919C /* AlertsView.swift in Sources */,
+				BD12A6E42D35834F0045B9F0 /* AboutSettingsView.swift in Sources */,
+				BD12A6EC2D358B390045B9F0 /* Appearance.swift in Sources */,
+				BD12A6DE2D3582C30045B9F0 /* AppleWatchSettingsView.swift in Sources */,
+				BD12A6E82D3583530045B9F0 /* LabsSettingsView.swift in Sources */,
 				BD77F7312D2F4D630016919C /* SettingsItem.swift in Sources */,
+				BD12A6E62D3583510045B9F0 /* UpdatesSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,8 +592,9 @@
 		BD66392A2D2EDA2B007BAEB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Default";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FinalYearProject/Preview Content\"";
@@ -530,7 +621,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -538,8 +629,9 @@
 		BD66392B2D2EDA2B007BAEB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Default";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FinalYearProject/Preview Content\"";
@@ -566,7 +658,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -588,7 +680,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalYearProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinalYearProject";
 			};
@@ -611,7 +703,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalYearProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinalYearProject";
 			};
@@ -632,7 +724,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FinalYearProject;
 			};
@@ -653,7 +745,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FinalYearProject;
 			};
@@ -699,6 +791,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD8621052D32D77200AFEC3B /* XCRemoteSwiftPackageReference "navigation-accessories" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/njansari/navigation-accessories";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD8621062D32D77200AFEC3B /* NavigationAccessories */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD8621052D32D77200AFEC3B /* XCRemoteSwiftPackageReference "navigation-accessories" */;
+			productName = NavigationAccessories;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BD6638FD2D2EDA2A007BAEB2 /* Project object */;
 }
